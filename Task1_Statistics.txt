@@ -1,0 +1,19 @@
+Graph G1:
+
+The number of pages with no in-links is 1
+Thus over a corpus of 1000 pages there exists no page that has no in-link,
+and hence the proportion of pages with no in-links in G1 is 1/1000 = 0.001
+
+The number of pages with no-outlinks is 17 
+Thus over a corpus of 1000 pages there exists 17 pages that has no out-link,
+and hence the proportion of pages with no out-links in G1 is 17/1000 = 0.017
+
+Graph G2:
+
+The number of pages with no in-links is 14350
+Thus over a corpus of 183,811 pages there exists 14350 pages that has no in-links,
+and hence the proportion of pages with no in-links in G2 is 14350/183811 = 0.078069
+
+The number of pages with no out-links is 66175
+Thus over a corpus of 1000 pages there exists 66175 pages that has no out-links,
+and hence the proportion of pages with no out-links in G2 is 66175/18381

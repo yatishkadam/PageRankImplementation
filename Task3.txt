@@ -1,0 +1,63 @@
+Task 3:
+
+Graph G1:
+
+The top 5 links obtained by PageRank are as follows:
+	
+->Integrated_Authority_File 0.0864524311615
+->Electricity 0.0199161227996
+->Germany 0.018658945769
+->Africa 0.0166374216747
+->Energy_policy 0.0123310617022	
+
+
+
+Pages as per the  : In-link count
+
+->Integrated_Authority_File 232
+->United_States 191
+->United_Kingdom 137
+->National_Diet_Library 135
+->Germany 127
+
+
+
+
+
+Graph G2:
+
+The top 5 links obtained by PageRank are as follows:		
+
+->WT21-B37-76 0.00269447441555
+->WT21-B37-75 0.0015331791
+->WT25-B39-116 0.00146850141633
+->WT23-B21-53 0.00137352493843
+->WT24-B26-10 0.00127615674413
+
+Page : In-link count
+->WT21-B37-76: 2568
+->WT21-B37-75: 1704 
+->WT01-B18-225: 1137
+->WT08-B19-222: 1041
+->WT08-B18-400: 990
+
+From the above examples,of G1 we see that
+-> only 2 of the top 5 pages obtained by counting the number of in-links match the list of top 5 pages obtained by calculating the pagerank.
+
+This is because PageRank works by counting the number and quality of links to a page to determine a rough estimate of how important the webpage is.
+ The underlying assumption is that more important websites are likely to receive more links from other websites
+
+The page "Electricity" in G1 is at the 2nd position when ranked according to the pagerank values, 
+but it doesn't occur anywhere near the top 5 when checked for the number of inlinks it has. 
+The reason is that though the page may contain less number of inlinks, it has popular/quality links 
+pointing to it, that is , the pagerank of the links are high or good. 
+On the other hand a page may have very large inlink count, but all these inlinks may not be popular and
+thus will be low pagerank scores.
+
+A hyperlink to a page counts as a vote of support.
+The PageRank of a page is defined recursively and depends on the number and PageRank metric of all pages that link to it
+
+
+It wouldn't be wrong to say that the pagerank of a page is directly proportional to that of its in-links.
+And this why ranks of the same page may vary when ranked according to pagerank and by the number of in-links. 	
+		
